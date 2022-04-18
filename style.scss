@@ -1,0 +1,25 @@
+@font-face {
+	font-family: 'Futura PT Cond Bold';
+	src: url('../fonts/futura_pt_cond_bold.eot'); 
+	src: url('../fonts/futura_pt_cond_bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/futura_pt_cond_bold.woff2') format('woff2'),
+		url('../fonts/futura_pt_cond_bold.woff') format('woff'),
+		url('../fonts/futura_pt_cond_bold.ttf') format('truetype'),
+		url('../fonts/futura_pt_cond_bold.svg#futura_pt_cond_bold') format('svg');
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+}
+
+@font-face {
+	font-family: 'Futura PT Cond Medium';
+	src: url('../fonts/futura_pt_cond_medium.eot');
+	src: url('../fonts/futura_pt_cond_medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/futura_pt_cond_medium.woff2') format('woff2'),
+		url('../fonts/futura_pt_cond_medium.woff') format('woff'),
+		url('../fonts/futura_pt_cond_medium.ttf') format('truetype'),
+		url('../fonts/futura_pt_cond_medium.svg#futura_pt_cond_medium') format('svg');
+        font-weight: 450;
+        font-style: normal;
+        font-display: swap;
+}
