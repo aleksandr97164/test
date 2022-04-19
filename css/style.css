@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Futura PT Cond Bold';
-  src: url("../fonts/futura_pt_cond_bold.eot");
-  src: url("../fonts/futura_pt_cond_bold.eot?#iefix") format("embedded-opentype"), url("../fonts/futura_pt_cond_bold.woff2") format("woff2"), url("../fonts/futura_pt_cond_bold.woff") format("woff"), url("../fonts/futura_pt_cond_bold.ttf") format("truetype"), url("../fonts/futura_pt_cond_bold.svg#futura_pt_cond_bold") format("svg");
+  src: url("../font/futura_pt_cond_bold.eot");
+  src: url("../font/futura_pt_cond_bold.eot?#iefix") format("embedded-opentype"), url("../font/futura_pt_cond_bold.woff2") format("woff2"), url("../font/futura_pt_cond_bold.woff") format("woff"), url("../font/futura_pt_cond_bold.ttf") format("truetype"), url("../font/futura_pt_cond_bold.svg#futura_pt_cond_bold") format("svg");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -9,9 +9,109 @@
 
 @font-face {
   font-family: 'Futura PT Cond Medium';
-  src: url("../fonts/futura_pt_cond_medium.eot");
-  src: url("../fonts/futura_pt_cond_medium.eot?#iefix") format("embedded-opentype"), url("../fonts/futura_pt_cond_medium.woff2") format("woff2"), url("../fonts/futura_pt_cond_medium.woff") format("woff"), url("../fonts/futura_pt_cond_medium.ttf") format("truetype"), url("../fonts/futura_pt_cond_medium.svg#futura_pt_cond_medium") format("svg");
+  src: url("../font/futura_pt_cond_medium.eot");
+  src: url("../font/futura_pt_cond_medium.eot?#iefix") format("embedded-opentype"), url("../font/futura_pt_cond_medium.woff2") format("woff2"), url("../font/futura_pt_cond_medium.woff") format("woff"), url("../font/futura_pt_cond_medium.ttf") format("truetype"), url("../font/futura_pt_cond_medium.svg#futura_pt_cond_medium") format("svg");
   font-weight: 450;
   font-style: normal;
   font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  color: #243433;
+}
+
+img {
+  width: 35.87px;
+  height: 15.97px;
+}
+
+.badge {
+  text-align: center;
+}
+
+.header-item {
+  width: 350px;
+  height: 125px;
+  background-color: #006964;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-item h2 {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.price {
+  font-family: 'Futura PT Cond Bold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 140%;
+}
+
+.header-item-text {
+  font-family: 'Futura PT Cond Medium';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.ul-title {
+  font-family: 'Futura PT Cond Bold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #006964;
+}
+
+ul {
+  list-style: disc;
+  font-family: 'Futura PT Cond Medium';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #243433;
+}
+
+a {
+  display: block;
+  width: 256px;
+  height: 46px;
+  padding: 11px 74px;
+  text-decoration: none;
+  font-family: 'Futura PT Cond Medium';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 17px;
+  color: #fff;
+  background: #006964;
+  text-align: center;
 }
