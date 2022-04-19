@@ -29,6 +29,10 @@
     padding: 0;
 }
 
+body{
+    background: #E5E5E5;
+}
+
 h1{
     font-family: 'Playfair Display';
     font-style: normal;
@@ -44,13 +48,24 @@ img{
 }
 
 .badge{
+    margin-top: 10px;
     text-align: center;
 }
 
 .rate-item{
+    display: flex;
+    justify-content: center;
 }
 .item{
-    
+    margin: 63px 30px 0px 0px;
+    width: 350px;
+    height: 456px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08), 0px 4px 20px rgba(22, 48, 47, 0.17);
+
+}
+
+.item:last-child{
+    margin: 63px 0px 0px 0px;
 }
 
 .header-item{
@@ -86,8 +101,16 @@ img{
     line-height: 140%;
 }
 
+.item-content{
+    display: flex;
+    height: 331px;
+    flex-direction: column;
+    align-items: center;
+}
+
 .ul-title{
     font-family: 'Futura PT Cond Bold';
+    margin-top: 18px;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -96,7 +119,12 @@ img{
 }
 
 ul{
+    margin-top: 20px;
     list-style: disc;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     font-family: 'Futura PT Cond Medium';
     font-style: normal;
     font-weight: 400;
@@ -106,9 +134,8 @@ ul{
 }
 
 a{
-    display: block;
-    width: 256px;
-    height: 46px;
+    margin-top: 55px;
+    display: inline-block;
     padding: 11px 74px;
     text-decoration: none;
     font-family: 'Futura PT Cond Medium';
